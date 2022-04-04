@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "testjob.trigger.cron",
+  "type": "java.lang.String",
+  "description": "A description for 'testjob.trigger.cron'"
+}]}
