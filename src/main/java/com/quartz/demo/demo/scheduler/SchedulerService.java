@@ -37,16 +37,12 @@ public class SchedulerService {
                 scheduler.deleteJob(jobDetail.getKey());
             }
             scheduler.scheduleJob(jobDetail, trigger);
-            
+
         } catch (SchedulerException e) {
-            log.error( "Errore Schedule" , e);
+            log.error("Errore Schedule", e);
         }
-    
-
     }
-
     
-
     @PostConstruct
     public void init() {
         try {
